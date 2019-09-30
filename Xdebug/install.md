@@ -94,3 +94,9 @@ xdebug.idekey="php<version>-xdebug"
     ```
     Host: адрес виртуального хоста
     ```    
+
+## Экстеншен для браузера
+
+[Экстеншен для firefox](https://addons.mozilla.org/en-GB/firefox/addon/xdebug-helper-for-firefox/)
+
+Через него можно запускать дебаг (если не включен `remote_autostart=1`), запускать построение трейсов и профайлер (для них нужно будет настроить тригеры)
