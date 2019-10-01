@@ -78,6 +78,14 @@ xdebug.remote_autostart=1
 xdebug.idekey="php<version>-xdebug"
 ```
 
+Если в `xdebug.remote_autostart` указать 0, то он не будет автоматически запускаться для дебага.
+
+Тригерить запуск можно будет экстеншеном для бразуера или GET/POST параметром для fpm, для cli можно делать так:
+
+```bash
+php -d xdebug.remote_autostart=1 <script>
+```
+
 ## Настройка в phpstorm
 
 1. Run—Edit Configurations
